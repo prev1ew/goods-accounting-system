@@ -2,7 +2,7 @@
 Create a system, which allows control goods
 
 # Technology
-Python, Django, PostreSQL
+Python, Django, PostgreSQL
 
 # Awaiting result (stage 1)
 I wanna see a system, where I can :
