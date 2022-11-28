@@ -1,0 +1,19 @@
+<!-- Copy-paste Bootstrap template -->
+<div class="container">
+    <header class="d-flex justify-content-center py-3 border-bottom">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="{% url 'homepage' %}"
+                                class="nav-link {% if request.path == '/' %}active {% endif %}"
+                                aria-current="page">Home</a></li>
+        <li class="nav-item">
+            <a href="{% url 'supplies' %}"
+                                class="nav-link {% if request.path|slice:9 == '/supplies' %}active {% endif %}">
+            Supplies
+            </a>
+        </li>
+
+        <li class="nav-item"><a href="#" class="nav-link">Orders</a></li>
+
+      </ul>
+    </header>
+</div>
